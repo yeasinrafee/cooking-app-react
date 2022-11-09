@@ -1,8 +1,10 @@
-import './Home.css';
 
 import React from 'react'
 import useFetch from '../../hooks/useFetch';
 import RecipeList from '../../components/RecipeList';
+
+//imported css file
+import './Home.css';
 
 export default function Home() {
   const {data, isLoading, error} = useFetch('http://localhost:3000/recipes')

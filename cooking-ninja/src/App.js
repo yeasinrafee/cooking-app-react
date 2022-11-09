@@ -1,14 +1,15 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-//page components
 
+//page components:
 import Home from './pages/home/Home'
 import Create from './pages/create/Create'
 import Search from './pages/search/Search'
 import Recipe from './pages/recipe/Recipe'
-
-import './App.css'
 import Navbar from './components/Navbar';
+
+//imported css file:
+import './App.css'
 
 function App() {
   return (

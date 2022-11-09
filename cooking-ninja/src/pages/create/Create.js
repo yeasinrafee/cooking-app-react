@@ -1,9 +1,9 @@
-import './Create.css'
-
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import useFetch from '../../hooks/useFetch';
-import { useEffect } from 'react';
+
+//imported css file:
+import './Create.css'
 
 export default function Create() {
   const [title, setTitle] = useState('');
@@ -84,6 +84,7 @@ export default function Create() {
             required
           />
         </label>
+        
         <button className='btn'>Submit</button>
         
       </form>
